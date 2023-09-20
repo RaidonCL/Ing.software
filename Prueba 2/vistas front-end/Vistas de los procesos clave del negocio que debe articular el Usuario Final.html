@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reservación de Habitaciones - Hotel Paradise</title>
+        <style>
+        /* Reset de estilos básicos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .room-list {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .room-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px;
+            width: 30%;
+        }
+
+        .room-item img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .room-details {
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+    </head>
+    <body>
+        <header>
+            <h1>Reservación de Habitaciones - Hotel Paradise</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#">Habitaciones Disponibles</a>
+                    </li>
+                    <li>
+                        <a href="#">Mis Reservas</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Habitaciones Disponibles</h2>
+            <ul class="room-list">
+                <li class="room-item">
+                    <img src="https://www.hotelsanbara.com/uploads/imagenes/habitaciones/habitacion_estandar_2.jpg" style="max-width: 75%;max-width: 75%;">
+                    <h3>Habitación Estándar</h3>
+                    <p>Precio por noche: $100</p>
+                    <p>Descripción: Habitación cómoda y espaciosa.</p>
+                    <div class="room-details">
+                        <p>Capacidad máxima: 2 personas</p>
+                        <p>Tamaño de la habitación: 25 m²</p>
+                        <p>Vistas: Ciudad</p>
+                    </div>
+                    <button>Reservar Ahora</button>
+                </li>
+                <li class="room-item">
+                    <img src="https://media.revistagq.com/photos/5dd2734a42317f0008ff2af4/master/w_1600,c_limit/wpid-Waldorf-Astoria-Dubai-Royal-Suite-Master-Bedroom.jpg">
+                    <h3>Suite de Lujo</h3>
+                    <p>Precio por noche: $200</p>
+                    <p>Descripción: Experimente el lujo en su máxima expresión.</p>
+                    <div class="room-details">
+                        <p>Capacidad máxima: 4 personas</p>
+                        <p>Tamaño de la suite: 60 m²</p>
+                        <p>Vistas: Mar</p>
+                    </div>
+                    <button>Reservar Ahora</button>
+                </li>
+                <li class="room-item">
+                    <img src="https://www.mvevip.com/shopmve/wp-content/uploads/2020/07/Suite-Matrimonial-Triple-870x555.jpg" alt="Suite Familiar">
+                    <h3>Suite Familiar</h3>
+                    <p>Precio por noche: $150</p>
+                    <p>Descripción: Ideal para familias con niños.</p>
+                    <div class="room-details">
+                        <p>Capacidad máxima: 4 personas</p>
+                        <p>Tamaño de la suite: 40 m²</p>
+                        <p>Vistas: Jardín</p>
+                    </div>
+                    <button>Reservar Ahora</button>
+                </li>
+            </ul>
+        </main>
+        <footer>
+            <p>&copy; 2023 Hotel Paradise</p>
+        </footer>
+    </body>
+</html>
