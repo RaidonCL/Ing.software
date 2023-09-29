@@ -1,0 +1,83 @@
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+body{
+    background-color: white; 
+    text-align: center; 
+    font-family: sans-serif;
+    margin: 0;
+}
+.titulo {
+  display: block;
+  text-align: center;
+  font-size: 32px; 
+  color: #333;
+  text-decoration: none;
+}
+.nav-enlace{
+font-family:sans-serif;
+display:  inline-flex;
+justify-content: space-around;
+background: #ff7300;
+padding: 10px 30px;
+color:white;
+text-align: center;
+
+text-decoration: none;
+}
+
+.nav-enlace:hover{
+    background: rgb(181, 140, 219);
+}
+
+form {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ff7300;
+    border-radius: 10px;
+    color:white;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"],
+  button[type="reset"] {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover,
+  button[type="reset"]:hover {
+    background-color: #3e8e41;
+  }
