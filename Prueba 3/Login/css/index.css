@@ -1,30 +1,82 @@
-html{
+/* Estilos generales para la página de administrador */
+html {
     font-family: sans-serif;
 }
-.titulo {
-    display: block;
-    text-align: center;
-    font-size: 32px; 
-    color: #333;
-    text-decoration: none;
-}
-body{
-    background-color: white;  
+
+body {
+    background-color: white;
     margin: 0;
     font-family: sans-serif;
     text-align: center;
 }
-.nav-enlace{
-font-family:sans-serif;
-display:  inline-flex;
-justify-content: space-around;
-background: #ff7300;
-padding: 10px 30px;
-color:white;
 
-text-decoration: none;
+.titulo {
+    display: block;
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    text-decoration: none;
 }
 
-.nav-enlace:hover{
-    background: rgb(181, 140, 219);
+.nav-enlace {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #ff7300;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.nav-enlace:hover {
+    background-color: #b58cdb; /* Cambia el color de fondo al pasar el cursor */
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ff7300;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }

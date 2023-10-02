@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administrador - RoomSafe</title>
+    <link rel="stylesheet" href="css/admin.css"> <!-- Enlace al archivo de estilos CSS específico para esta página -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<div>
+    <p>
+        <center><a href="index.html" class="titulo"> RoomSafe  </a></center> 
+    </p>    
+</div>
+<body>
+    <div>
+        <a href="Habitaciones.html" class="nav-enlace">Habitaciones</a>
+        <a href="Cuenta.html"class="nav-enlace">Cuenta</a>
+        <a href="nosotros.html"class="nav-enlace">Nosotros</a>
+        <a href="Registro.html"class="nav-enlace">Registro</a>
+        <a href="Iniciosesion.html"class="nav-enlace">Inicio sesion</a>
+        <a href="administrador.html"class="nav-enlace">Administrador</a>
+    
+    </div>
+    <section class="contenido-admin">
+        <h1>Bienvenido al Panel de Administrador</h1>
+        <p>En esta sección, puedes realizar tareas de administración y gestión del sitio.</p>
+        <h2>Usuarios Registrados</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th>Rol</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Juan Pérez</td>
+                    <td>juan@example.com</td>
+                    <td>Usuario</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jose Rodríguez</td>
+                    <td>Jose@gmail.com</td>
+                    <td>Admin</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Gestión de Reservas</h2>
+        <p>Aquí puedes ver y gestionar las reservas de los clientes.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID de Reserva</th>
+                    <th>Cliente</th>
+                    <th>Habitación</th>
+                    <th>Fecha de Check-In</th>
+                    <th>Fecha de Check-Out</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Juan Pérez</td>
+                    <td>Habitación Deluxe</td>
+                    <td>2023-10-10</td>
+                    <td>2023-10-15</td>
+                    <td>Pendiente</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>María Rodríguez</td>
+                    <td>Suite Ejecutiva</td>
+                    <td>2023-10-12</td>
+                    <td>2023-10-17</td>
+                    <td>Aprobada</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>@ Derechos Reservados - RoomSafe</p>
+    </footer>
+</body>
+</html>
